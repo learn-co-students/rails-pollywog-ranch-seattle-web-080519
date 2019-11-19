@@ -38,3 +38,5 @@ Tadpole.create([
   {:name => "Argo",      :color => "orange", :frog_id => 11},
   {:name => "Jared",     :color => "mint",   :frog_id => 12}
 ])
+
+puts "seeds done!"
