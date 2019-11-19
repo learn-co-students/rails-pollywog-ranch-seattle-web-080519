@@ -50,7 +50,6 @@ class TadpolesController < ApplicationController
   end
 
   def destroy
-    binding.pry
     @tadpole.destroy
     respond_to do |format|
       format.html { redirect_to tadpoles_url, notice: 'Tadpole was successfully destroyed.' }
